@@ -1,7 +1,11 @@
 # Kitronik-Pico-Smart-Air-Quality-Board-CircuitPython
 A module and sample code for the Kitronik Smart Air Quality Board for the Raspberry Pi Pico. (www.kitronik.co.uk/5336)
 
-To use, save the PicoAirQuality.py file onto the Pico so it can be imported. 
+To use, save the `PicoAirQuality.py` file onto the Pico so it can be imported. 
+
+You'll also need to copy the `adafruit_pioasm.mpy`, `adafruit_pixelbuf.mpy` and `adafruit_framebuf.mpy` files into the `lib` folder on your Pico. You can get these files from the [Adafruit CircuitPython Bundle](https://circuitpython.org/libraries).
+
+If you want to draw text on the OLED screen then you'll also need to copy the `font5x8.bin` file onto the Pico so it can be used.
 
 There are several classes within the module for accessing and controlling the different board features.  
 
